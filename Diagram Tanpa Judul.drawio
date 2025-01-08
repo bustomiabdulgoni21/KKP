@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1223" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,6 +117,47 @@
           <mxGeometry x="0.5" y="49" relative="1" as="geometry">
             <mxPoint x="-38" y="40" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3AJB-yxQk086OA90tgfF" name="Halaman-2">
+    <mxGraphModel dx="568" dy="280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C8EfC1SQhiggxJqcnGFl-1" value="DATA SISWA" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="C8EfC1SQhiggxJqcnGFl-2" value="id_siswa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="C8EfC1SQhiggxJqcnGFl-1">
+          <mxGeometry x="4" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8N6ijqjVniXSD4-iBZDE-1" value="nama_siswa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="C8EfC1SQhiggxJqcnGFl-1">
+          <mxGeometry x="4" y="55" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8N6ijqjVniXSD4-iBZDE-2" value="id_kelas_" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="C8EfC1SQhiggxJqcnGFl-1">
+          <mxGeometry x="4" y="80" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8N6ijqjVniXSD4-iBZDE-3" value="id_jurusan_" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="C8EfC1SQhiggxJqcnGFl-1">
+          <mxGeometry y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8N6ijqjVniXSD4-iBZDE-4" value="DATA KELAS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8N6ijqjVniXSD4-iBZDE-5" value="id_kelas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8N6ijqjVniXSD4-iBZDE-4">
+          <mxGeometry x="4" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8N6ijqjVniXSD4-iBZDE-6" value="nama_kelas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8N6ijqjVniXSD4-iBZDE-4">
+          <mxGeometry x="4" y="55" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8N6ijqjVniXSD4-iBZDE-9" value="DATA JURUSAN" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8N6ijqjVniXSD4-iBZDE-10" value="id_jurusan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8N6ijqjVniXSD4-iBZDE-9">
+          <mxGeometry x="-1" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8N6ijqjVniXSD4-iBZDE-11" value="nama_jurusan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8N6ijqjVniXSD4-iBZDE-9">
+          <mxGeometry x="-1" y="55" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
